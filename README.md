@@ -1,6 +1,6 @@
 # RespondToParent
 
-TODO: Write a gem description
+respond_to_parent for rails ~> 3.2
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `gem 'respond_to_parent', github: 'Gonzih/respond_to_parent'` to your `Gemfile`.
 
 ## Contributing
 
