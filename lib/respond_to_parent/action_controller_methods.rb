@@ -1,4 +1,4 @@
-module RespondsToParent
+module RespondToParent
   # Module containing the methods useful for child IFRAME to parent window communication
   module ActionControllerMethods
     # Executes the response body as JavaScript in the context of the parent window.
