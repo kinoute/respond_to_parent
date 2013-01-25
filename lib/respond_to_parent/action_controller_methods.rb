@@ -29,7 +29,7 @@ module RespondToParent
           gsub('</script>','</scr"+"ipt>')
 
         # Clear out the previous render to prevent double render
-        response.request.env['action_controller.instance'].instance_variable_set(:@_response_body, nil)
+        @_response_body = nil
 
         # Eval in parent scope and replace document location of this frame
         # so back button doesn't replay action on targeted forms
