@@ -8,11 +8,11 @@ Gem::Specification.new do |gem|
   gem.version       = RespondToParent::VERSION
   gem.authors       = ["Max Gonzih"]
   gem.email         = ["gonzih@gmail.com"]
-  gem.description   = %q{respond_to_parent for Rails 3}
-  gem.summary       = %q{respond_to_parent gem ported for Rails >3}
+  gem.description   = %q{respond_to_parent for Rails 4}
+  gem.summary       = %q{respond_to_parent gem ported for Rails >4}
   gem.homepage      = ""
 
-  gem.add_dependency 'rails',     '~> 3.2'
+  gem.add_dependency 'rails',     '~> 4.2'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
